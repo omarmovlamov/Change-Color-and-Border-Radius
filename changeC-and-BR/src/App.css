@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgba(15, 15, 15, 0.815);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.box {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 0;
+  box-shadow: 1px 1px 30px black;
+  transition: 0.8s ease-in;
+}
+.App input {
+  margin-top: 30px;
+  width: 280px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 5px 3px 10px black;
+  background-color: #5860ff;
+  transform: scale(0.9);
+}
+.App input:focus {
+  box-shadow: 5px 3px 40px white;
+  background-color: #282c75;
+  color: #fff;
+}
+.App input::placeholder {
+  color: rgba(255, 255, 255, 0.37);
+}
+.App button {
+  margin-top: 19px;
+  width: 100px;
+  height: 35px;
+  outline: none;
+  border: 0;
+  border-radius: 7px;
+  box-shadow: 1px 1px 30px white;
+  background-color: #282d8f;
+  color: #fff;
+  cursor: pointer;
+}
+.App button:hover {
+  box-shadow: 1px 1px 30px black;
+}
+footer {
+  font-size: 20px;
+
+  bottom: 0px;
+  position: fixed;
+}
+footer a {
+  text-decoration: none;
+  color: rgba(3, 3, 3, 0.479);
+}
